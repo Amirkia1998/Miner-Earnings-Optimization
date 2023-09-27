@@ -6,6 +6,8 @@ This C program aims to optimize a miner's earnings by choosing the excavation ar
 
 The miner wants to maximize their earnings while excavating blocks in a 1-dimensional plane. Each block has an associated profit value, which can be positive or negative. The goal is to find the optimal sequence of blocks to excavate that results in the highest profit.
 
+![1](https://github.com/Amirkia1998/Miner-Earnings-Optimization/blob/main/Photos/1.PNG)
+
 ## Maximum Gain
 
 The program uses a global variable `gMax` to keep track of the maximum gain achieved during the calculations. This variable is updated as the algorithms progress and is used to determine the highest profit.
@@ -13,9 +15,13 @@ The program uses a global variable `gMax` to keep track of the maximum gain achi
 ## Algorithms
 
 1. **Divide-and-Conquer Algorithm**: This algorithm efficiently finds the maximum profit by dividing the problem into smaller subproblems. It identifies the optimal sequence of blocks within a given range.
+![2](https://github.com/Amirkia1998/Miner-Earnings-Optimization/blob/main/Photos/2.PNG)
+![3](https://github.com/Amirkia1998/Miner-Earnings-Optimization/blob/main/Photos/3.PNG)
+![4](https://github.com/Amirkia1998/Miner-Earnings-Optimization/blob/main/Photos/4.PNG)
 
-2. **Brute-Force Algorithm**: The brute-force approach exhaustively computes the profit for all possible sequences of blocks within the range. It provides a baseline comparison for the efficiency of the divide-and-conquer algorithm.
 
+3. **Brute-Force Algorithm**: The brute-force approach exhaustively computes the profit for all possible sequences of blocks within the range. It provides a baseline comparison for the efficiency of the divide-and-conquer algorithm.
+![5](https://github.com/Amirkia1998/Miner-Earnings-Optimization/blob/main/Photos/5.PNG)
 ## Usage
 
 Compile and run the program, providing the number of elements and the profit values for each block as input. The program will output the largest gain and the corresponding sequence of blocks for both algorithms.
